@@ -1,3 +1,1 @@
-<?php
-	echo "Helloworld 3";
-?>
+version:1
