@@ -7,5 +7,11 @@
                 "paths": [ "/share/*" ]
             }
         ]
-    }
+    },
+    "messagefilter": {
+		"apps": [
+			"3Z74SB9GX8.com.zhanghome.applications.homeclientforios.Home-Client-for-iOS.Home-Client-Message-Filter",
+			"3Z74SB9GX8.com.zhanghome.applications.homeclientforios.Home-Client-for-iOS"
+		]
+	}
 }
