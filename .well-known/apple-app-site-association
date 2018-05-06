@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "3Z74SB9GX8.com.zhanghome.applications.homeclientforios.Home-Client-for-iOS",
-                "paths": [ "/share/*" ]
+                "paths": [ "/Shares/*" ]
             }
         ]
     },
