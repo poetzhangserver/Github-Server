@@ -1,0 +1,22 @@
+#responseview {
+	word-wrap: break-word;
+}
+#navigationview {
+	overflow-y: scroll;
+	height: 100%;
+	width: 29%;
+	position: fixed;
+}
+
+#contentview {
+	overflow-y: scroll;
+	height: 100%;
+	width: 70%;
+	position: fixed;
+	right: 0;
+}
+
+#frameview {
+	width: 100%;
+	height: 100%;
+}
