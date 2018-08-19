@@ -52,6 +52,19 @@
 				}
 			}
 			
+			public static function encodingLibraryPath() {
+				return self::libraryPath()."/Encoding V2";
+			}
+			
+			public static function databaseLibraryPath() {
+				return self::encodingLibraryPath()."/Database/PHP";
+			}
+			public static function importDatabaseLibrary() {
+				require_once(self::databaseLibraryPath()."/SQLStatement.php");
+				require_once(self::databaseLibraryPath()."/DatabaseManager.php");
+				require_once(self::databaseLibraryPath()."/SQLiteDatabaseManager.php");
+			}
+			
 		}
 	}
 ?>
